@@ -21,10 +21,22 @@
 	</div>
 </div>
 <div id="body-container" class="body-container" style="display:none">
+
     {%- include header.html -%}
-	{{ content }}
+	
+	<div id="content-body" class="content-body">
+		<div id="content-body-box" class="content-body-box">
+			
+			{{ content }}
+			
+		</div>
+	</div>
+	
     {%- include footer.html -%}
+	
 </div>
+
 {%- include foottags.html -%}
+
 </body>
 </html>
