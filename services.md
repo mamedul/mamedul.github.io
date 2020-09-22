@@ -1,5 +1,5 @@
 ---
 layout: page
 title: My Services
-permalink: /services/
+permalink: /services
 ---
