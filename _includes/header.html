@@ -1,7 +1,9 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
 	<div id="content-header" class="content-header">
+	{%- assign default_paths = site.pages | map: "path" -%}
+	{%- assign page_paths = site.header_pages | default: default_paths -%}
+	{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
 		<div class="text-center m-auto">
 			<div class="p-2 p-md-4">
 				<h1 class="armor d-inline-block box-shadow-6 light-beam white-beam p-2 pl-4 pr-4">
@@ -43,3 +45,4 @@
 			{%- endif -%}
 		</div>
 	</div>
+	
