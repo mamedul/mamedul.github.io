@@ -1,0 +1,79 @@
+---
+layout: page
+---
+
+<h2 id="title" class="text-center">Contact me</h2>
+<h3 class="text-center">Shortly contact me-</h3>
+<br>
+<div class="container">
+	<div class="mb-1 d-flex text-center row row-cols-1 row-cols-md-2">
+		<div class="left-column col align-self-center mb-4">
+			<div class="text-center m-auto">
+				<h3>Get in touch</h3>
+				<div>
+					<form method="POST" action="/subscribe.php">
+						<label class="input d-inline-block">
+							<input type="text" name="r" placeholder="* E-mail" required/>
+						</label>
+						<label class="input d-inline-block" for="subs-form-btn">
+							<input id="subs-form-btn" type="submit" name="email" value="Subscribe"/>
+						</label>
+					</form>
+					
+				</div></br/>
+				<h3>Connect in social media</h3>
+				<div>
+					<a class="social-item item-large" target="_blank" href="https://facebook.com/md.mamedul" title="Follow">
+						<img class="" src="/assets/icons/facebook_32x32.png" alt="Facebook"/>
+					</a>
+					<a class="social-item item-large" target="_blank" href="https://www." title="Follow">
+						<img class="" src="/assets/icons/twitter_32x32.png" alt="Twitter"/>
+					</a>
+					<a class="social-item item-large" target="_blank" href="https://www." title="Follow">
+						<img class="" src="/assets/icons/instagram_32x32.png" alt="Instagram"/>
+					</a>
+					<a class="social-item item-large" target="_blank" href="https://www." title="Follow">
+						<img class="" src="/assets/icons/linkedin_32x32.png" alt="LinkedIn"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="right-column col align-self-center text-md-left mb-4">
+			<div class="box">
+				<div class="head text-left"><h3>Message me</h3></div>
+				<div class="body tech text-justify">
+					<div class="w-100 overflow-hidden">
+						<form method="POST" action="/message.php">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="input d-block">
+										<input class="w-100" type="text" name="name" placeholder="* Your name" required/>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="input d-block">
+										<input class="w-100" type="e-mail" name="email" placeholder="* Your e-mail" required>
+									</div>
+								</div>
+							</div>
+							<div class="w-100">
+								<div class="textarea d-block">
+									<textarea class="w-100" name="message" rows="4" placeholder="* Leave a message here.." required></textarea>
+								</div>
+							</div>
+							<div class="input col-sm-5 mr-auto">
+								<img src="" alt="captcha code"/>
+								<input type="text" name="captcha" placeholder="* CAPTCHA" required/>
+							</div>
+							<div class="text-right">
+								<div class="input" for="msg-form-btn">
+									<input id="msg-form-btn" type="submit" name="submit" value="Send"/>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
