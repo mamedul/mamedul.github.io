@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Mamedul Islam
+title: Home
 permalink: /
 ---
