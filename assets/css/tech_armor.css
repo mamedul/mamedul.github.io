@@ -1,0 +1,265 @@
+.armor{
+	position: relative;
+	/*outline: 1px solid #ffffff; */
+	padding: 6px 6px;
+}
+
+.armor>.tl_corner::before,
+.armor>.tl_corner::after,
+.armor>.tr_corner::before,
+.armor>.tr_corner::after,
+.armor>.bl_corner::before,
+.armor>.bl_corner::after,
+.armor>.br_corner::before,
+.armor>.br_corner::after
+ {
+	content: "";
+	position: absolute;
+	background: #ffffff;
+	z-index: 2;
+	
+}
+
+.armor>.tl_corner::before {
+	top: 0px;
+	left: 0px;
+	height: 6px;
+	width: 45%;
+	background: linear-gradient( 135deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.tl_corner::after {
+	top: 0px;
+	left: 0px;
+	height: 45%;
+	width: 6px;
+	background: linear-gradient( 135deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.tr_corner::before {
+	top: 0px;
+	right: 0px;
+	height: 6px;
+	width: 45%;
+	background: linear-gradient( 225deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.tr_corner::after {
+	top: 0px;
+	right: 0px;
+	height: 45%;
+	width: 6px;
+	background: linear-gradient( 225deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.bl_corner::before {
+	bottom: 0px;
+	left: 0px;
+	height: 6px;
+	width: 45%;
+	background: linear-gradient( 45deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.bl_corner::after {
+	bottom: 0px;
+	left: 0px;
+	height: 45%;
+	width: 6px;
+	background: linear-gradient( 45deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.br_corner::before {
+	bottom: 0px;
+	right: 0px;
+	height: 6px;
+	width: 45%;
+	background: linear-gradient( 315deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.armor>.br_corner::after {
+	bottom: 0px;
+	right: 0px;
+	height: 45%;
+	width: 6px;
+	background: linear-gradient( 315deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.img-armor{
+	position: relative;
+	padding: 16px;
+	background: rgb(65, 190, 189);
+	background: linear-gradient( 315deg, rgba(144, 255, 254, 0.6) 90%, transparent 10% )
+}
+
+.img-armor::before {
+	content: "";
+	position: absolute;
+	background: #ffffff;
+	bottom: 0px;
+	right: 0px;
+	height: 6px;
+	width:45%;
+	background: linear-gradient( 315deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.img-armor::after {
+	content: "";
+	position: absolute;
+	background: #ffffff;
+	bottom: 0px;
+	right: 0px;
+	height: 45%;
+	width: 6px;
+	background: linear-gradient( 315deg, rgba(255, 255, 255, 1) 80%, transparent 20% );
+}
+
+.img-armor .img-case {
+	position: relative;
+	border: 1px solid #19fbf0;
+}
+
+.img-armor .img-case::before {
+	content: "";
+	position: absolute;
+	background: #ffffff;
+	top: 0px;
+	right: 0px;
+	height: 4px;
+	width:45%;
+	background: linear-gradient( 225deg, #19fbf0 80%, transparent 20% );
+}
+
+.img-armor .img-case::after {
+	content: "";
+	position: absolute;
+	background: #ffffff;
+	bottom: 0px;
+	left: 0px;
+	height: 4px;
+	width:45%;
+	background: linear-gradient( 45deg, #19fbf0 80%, transparent 20% );
+}
+
+
+
+
+.armor>.tr::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0%;
+	height: 6px;
+	width: 25%;
+	background: #ffffff;
+	background: linear-gradient( 225deg, rgba(255, 255, 255, 1) 90%, transparent 10% );
+}
+
+.armor>.bottom::before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0%;
+	height: 6px;
+	width: 25%;
+	background: #ffffff;
+	background: linear-gradient( 45deg, rgba(255, 255, 255, 1) 90%, transparent 10% );
+}
+
+.armor>.bottom::after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	right: 0%;
+	height: 6px;
+	width: 25%;
+	background: #ffffff;
+	background: linear-gradient( 315deg, rgba(255, 255, 255, 1) 90%, transparent 10% );
+}
+
+.armor>.left::before {
+	content: "";
+	position: absolute;
+	top: 15%;
+	left: 4px;
+	height: 70%;
+	width: 4px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.armor>.left::after {
+	content: "";
+	position: absolute;
+	top: 15%;
+	left: 10px;
+	height: 70%;
+	width: 4px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.armor>.right::before {
+	content: "";
+	position: absolute;
+	top: 15%;
+	right: 4px;
+	height: 70%;
+	width: 4px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.armor>.right::after {
+	content: "";
+	position: absolute;
+	top: 15%;
+	right: 10px;
+	height: 70%;
+	width: 4px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.light-beam {
+	background: #205a8d;
+	/*background: linear-gradient( #205a8d, #56ffdd, #205a8d );*/
+	background: linear-gradient( transparent, #56ffdd, transparent );
+}
+.light-beam.white-beam {
+	background: #205a8d;
+	background: linear-gradient( transparent, #56ffdd, transparent );
+}
+
+
+/*
+
+138151173266
+ 
+First Name
+MD. MAMDUL
+Invalid format.
+Last Name
+ISLAM
+Branch Name
+Gazipur Chowrasta Branch
+Branch Address
+Riaz Tower, Gazipur Chowrasta, Gazi
+Date Of Birth
+1996-04-12
+Bank Account Type
+Post Code
+5320
+ 
+Name on Account
+Mamedul Islam
+Address
+Bajedumuria
+City and State/Province
+Kishoreganj, Nilphamari
+Country
+Phone Number (  
+880
+ )  
+1521261218
+
+*/

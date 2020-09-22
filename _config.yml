@@ -1,0 +1,36 @@
+title: Mamedul Islam :: Personal website for work and my portfolios
+
+author: 
+  name: mamedul
+  email: mamedul@mamedul.ml
+  
+description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a full-time freelancer and working from home. The website is using for works & portfolio
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+
+mamedul:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: mamedul
+    github:  mamedul
+    facebook:  md.mamedul
+    twitter:  mamedul
+    instagram: mamedul
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: mamedul
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

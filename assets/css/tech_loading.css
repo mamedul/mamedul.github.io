@@ -1,0 +1,128 @@
+.loading_wheel {
+	position: relative;
+	width: 128px;
+	height: 128px;
+}
+.loading_wheel *{
+	box-sizing: content-box;
+	border-radius: 50%;
+}
+.loading_wheel .wheel{
+	position: absolute;
+	top: 56px;
+	left: 56px;
+}
+.loading_wheel .wheel_1{
+	width: 32px;
+	height: 32px;
+	margin: -16px -16px 0 0;
+	border: 3px solid green;
+}
+.loading_wheel .wheel_2{
+	width: 48px;
+	height: 48px;
+	margin: -24px -24px 0 0;
+	border: 16px dashed red;
+}
+
+
+
+.loading_wheel {
+	position: relative;
+	width: 128px;
+	height: 128px;
+	/*box-shadow: inset 0px 0px 0px 46px rgba(255, 0, 0, .3);*/
+	box-sizing: content-box !important;
+	transform: scale(1.5);
+}
+.loading_wheel .wheel{
+	position: absolute;
+	top: 56px;
+	left: 56px;
+	box-sizing: content-box !important;
+	border-radius: 50%;
+}
+.loading_wheel .wheel_0{
+	width: 32px;
+	height: 32px;
+	font-size: 50%;
+	text-center: center;
+	line-height: 32px;
+	margin: -12px 0 0 -12px;
+}
+.loading_wheel .wheel_0:after{
+	content: "..";
+	animation: text_blink 2s linear infinite;
+}
+.loading_wheel .wheel_1{
+	width: 32px;
+	height: 32px;
+	border: 4px solid #19fbf0;
+	border-color: rgba(55, 173, 180, .8);
+	margin: -12px 0 0 -12px;
+	animation: scaler 1s linear infinite;
+}
+.loading_wheel .wheel_2{
+	width: 42px;
+	height: 42px;
+	border: 2px solid #19fbf0;
+	border-color: rgba(55, 173, 180, .8);
+	border-top-color: transparent;
+	margin: -15px 0 0 -15px;
+	animation: spin4 2s ease alternate-reverse infinite;
+}
+.loading_wheel .wheel_3{
+	width: 48px;
+	height: 48px;
+	border: 8px dashed #19fbf0;
+	border-color: rgba(55, 173, 180, .8);
+	margin: -24px 0 0 -24px;
+	animation: spin5 3s linear alternate-reverse infinite;
+}
+.loading_wheel .wheel_4{
+	width: 64px;
+	height: 64px;
+	border: 2px dotted #36aab6;
+	border-color: rgba(55, 173, 180, .8);
+	border-bottom-style: dashed;
+	border-right-style: solid;
+	margin: -26px 0 0 -26px;
+	animation: spin4 2s linear infinite;
+}
+.loading_wheel .wheel_5{
+	width: 68px;
+	height: 68px;
+	border: 12px dashed #36aab6;
+	border-color: rgba(55, 173, 180, .8);
+	border-top-color: transparent;
+	margin: -38px 0 0 -38px;
+	animation: spin5 2.4s linear infinite;
+}
+.loading_wheel .wheel_6{
+	width: 92px;
+	height: 92px;
+	border: 12px dashed #36aab6;
+	border-color: rgba(55, 173, 180, .8);
+	border-left-color: transparent;
+	margin: -50px 0 0 -50px;
+	animation: spin4 2s linear infinite;
+}
+@keyframes text_blink {
+	0% {content: "   ";}
+	33% {content: ".   ";}
+	66% {content: ".. ";}
+	100% {content: "...";}
+}
+@keyframes scaler{
+	0% {transform: scale(1) rotate(0)}
+	50% {transform: scale(0) rotate(360deg); border-style: dashed;}
+	100% {transform: scale(1) rotate(0deg)}
+}
+@keyframes spin4{
+	from {transform: rotate(0deg)}
+	to{transform: rotate(-360deg)}
+}
+@keyframes spin5{
+	from {transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+}

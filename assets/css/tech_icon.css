@@ -1,0 +1,18 @@
+    .caret {
+        width: 0;
+        height: 0;
+        display: inline-block;
+        border: 10px solid transparent;
+    }
+    .caret.down{
+        border-top-color: black;
+    }
+    .caret.right{
+        border-left-color: black;
+    }
+    .caret.up{
+        border-bottom-color: black;
+    }
+    .caret.left{
+        border-right-color: black;
+    }
