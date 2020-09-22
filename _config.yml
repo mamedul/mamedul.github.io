@@ -29,7 +29,7 @@ mamedul:
 # - about.md
 
 # Build settings
-theme: mamedul
+theme: minima
 
 plugins:
  - jekyll-feed
