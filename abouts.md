@@ -1,5 +1,5 @@
 ---
 layout: abouts
 title: Abouts
-permalink: /abouts
+permalink: /abouts/
 ---
