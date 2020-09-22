@@ -10,6 +10,8 @@
 			$('#body-container').show();
 			
 			var load = function (link) {
+				link = link.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+				link = '/pages/'+link+'.html';
 				$.ajax({
 					method: 'GET',
 					url: link,
@@ -66,15 +68,16 @@
 			});
 			
 			var fitdoc=function(){
-				
 				var ch =$('#content-header'), cb=$('#content-body'), cbb=$('#content-body-box'), cf=$('#content-footer');
-				//cbb.css({ "margin- top" : ch.height() +"px", "margin- bottom" : cf.height() +"px");
 				cbb.css({ "margin-top" : ch.outerHeight(), "margin-bottom" : cf.outerHeight(), "height" : cb.height() - (ch.outerHeight()+cf.outerHeight()), "max-height" : cb.outerHeight() - (ch.outerHeight()+cf.outerHeight()) });
 			};
 			
-			fitdoc();$(window).on('resize', function(){fitdoc()});
-		});
+			fitdoc();
+			
+			$(window).on('resize', function(){
+				fitdoc();
+			});
 		
-		console.log("{{ request }}");
+		});
 		
 	</script>
