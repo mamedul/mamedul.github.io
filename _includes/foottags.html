@@ -12,6 +12,7 @@
 			var load = function (link) {
 				link = link.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
 				link = '/pages/'+link+'.html';
+				console.log(link);
 				$.ajax({
 					method: 'GET',
 					url: link,
