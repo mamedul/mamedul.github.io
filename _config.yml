@@ -1,10 +1,10 @@
-title: "Mamedul Islam :: Personal website for work and my portfolios"
+title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
 
 author: 
   name: mamedul
   email: mamedul@mamedul.ml
   
-title: "Personal website for work and my portfolios :: Freelancer Mamedul Islam &#x7c; Top rated Freelancer"
+description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -34,3 +34,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-sitemap
