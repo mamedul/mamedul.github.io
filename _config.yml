@@ -1,4 +1,4 @@
-title: "Personal website for work and my portfolios :: Freelancer Mamedul Islam &#x7c; Top rated Freelancer"
+title: "Mamedul Islam :: Personal website for work and my portfolios"
 
 author: 
   name: mamedul
@@ -16,11 +16,11 @@ mamedul:
 
   # generate social links in footer
   social_links:
-	github:  mamedul
-	facebook:  md.mamedul
     twitter: mamedul
+    github:  mamedul
+    facebook:  md.mamedul
+    twitter:  mamedul
     instagram: mamedul
-	linkedin:  mamedul
 
 
 # If you want to link only specific pages in your header, uncomment
@@ -32,6 +32,5 @@ mamedul:
 theme: minima
 
 plugins:
- - jekyll-seo-tag
- - jekyll-sitemap
  - jekyll-feed
+ - jekyll-seo-tag
