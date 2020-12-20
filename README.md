@@ -10,6 +10,10 @@
 
 This files in github is copyright license under ![The Creative Commons copyright licenses - NonCommercial-ShareAlike](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png) [&copy; CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
+[http://creativecommons.org/licenses/by-nc-sa/4.0/](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
