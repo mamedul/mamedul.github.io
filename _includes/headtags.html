@@ -29,17 +29,17 @@
 <meta name="Classification" content="{{ site.meta_tags.classification }}">
 <meta name="designer" content="{{ site.meta_tags.designer }}">
 
-<meta property="og:title" content="{%- if page.og.title and page.og.title != "" -%}{{ page.og.title }}{%- elseif site.meta_tags.og.title and site.meta_tags.og.title != "" -%}{{ site.meta_tags.og.title }}{% else %}{{ site.title }}{%- endif -%}">
+<meta property="og:title" content="{%- if page.og.title and page.og.title != "" -%}{{ page.og.title }}{%- else if site.meta_tags.og.title and site.meta_tags.og.title != "" -%}{{ site.meta_tags.og.title }}{% else %}{{ site.title }}{%- endif -%}">
 <meta property="og:image" content="{%- if page.og.image -%}{{ page.og.image | relative_url }}{% else %}{{ site.meta_tags.og.image | relative_url }}{%- endif -%}">
-<meta property="og:description" content="{%- if page.og.description and page.og.description != "" -%}{{ page.og.description }}{%- elseif site.meta_tags.og.description and site.meta_tags.og.description != "" -%}{{ site.meta_tags.og.description }}{% else %}{{ site.description }}{%- endif -%}">
+<meta property="og:description" content="{%- if page.og.description and page.og.description != "" -%}{{ page.og.description }}{%- else if site.meta_tags.og.description and site.meta_tags.og.description != "" -%}{{ site.meta_tags.og.description }}{% else %}{{ site.description }}{%- endif -%}">
 <meta property="og:url" content="{%- if page.og.description -%}{{ page.og.description | relative_url  }}{% else %}{{ site.meta_tags.og.description | relative_url  }}{%- endif -%}">
 <meta property="og:type" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
 <meta property="og:site_name" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
 <meta property="fb:locale" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
 <meta property="fb:locale:alternate" content="id_ID">
 <meta property="twitter:card" content="{%- if page.twitter.card -%}{{ page.twitter.card }}{% else %}{{ site.meta_tags.twitter.card }}{%- endif -%}">
-<meta property="twitter:title" content="{%- if page.twitter.title and page.twitter.title != "" -%}{{ page.twitter.title }}{%- elseif site.meta_tags.twitter.title and site.meta_tags.twitter.title != "" -%}{{ site.meta_tags.twitter.title }}{% else %}{{ site.title }}{%- endif -%}">
-<meta property="twitter:description" content="{%- if page.twitter.description and page.twitter.description != "" -%}{{ page.twitter.description }}{%- elseif site.meta_tags.twitter.description and site.meta_tags.twitter.description != "" -%}{{ site.meta_tags.twitter.description }}{% else %}{{ site.description }}{%- endif -%}">
+<meta property="twitter:title" content="{%- if page.twitter.title and page.twitter.title != "" -%}{{ page.twitter.title }}{%- else if site.meta_tags.twitter.title and site.meta_tags.twitter.title != "" -%}{{ site.meta_tags.twitter.title }}{% else %}{{ site.title }}{%- endif -%}">
+<meta property="twitter:description" content="{%- if page.twitter.description and page.twitter.description != "" -%}{{ page.twitter.description }}{%- else if site.meta_tags.twitter.description and site.meta_tags.twitter.description != "" -%}{{ site.meta_tags.twitter.description }}{% else %}{{ site.description }}{%- endif -%}">
 <meta property="twitter:image:src" content="{%- if page.twitter.image -%}{{ page.twitter.image | relative_url  }}{% else %}{{ site.meta_tags.twitter.image | relative_url  }}{%- endif -%}">
 <meta property="twitter:creator" content="{%- if page.twitter.creator -%}{{ page.twitter.creator }}{% else %}{{ site.meta_tags.twitter.creator }}{%- endif -%}">
 
