@@ -1,5 +1,5 @@
 
-<title>{{ site.title }}</title>
+<title>{%- if page.title -%}{{ page.title }}{% else %}{{ site.title }}{%- endif -%}</title>
 <meta charset="{{ site.meta_tags.charset }}">
 <meta http-equiv="Content-Type" content="text/html">
 <meta http-equiv="X-UA-Compatible" content="{{ site.meta_tags.compatible }}">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="{{ site.meta_tags.viewport }}">
 
 
-<meta name="description" content="Mamedul Islam's personal website. The owner of the site is a professional web designer & developer. This site is using for important works, portfolio, forum, blogs & personal photo gallery etc.">
+<meta name="description" content="{%- if page.title -%}{{ page.title }}{% else %}{{ site.title }}{%- endif -%}">
 <meta name="keywords" content="Mamedul Islam, mamedul.ml, Momedul Islam, momedul.ml, Momidul Islam, www.mamedul.ml, www.momedul.ml, www.momidul.ml, Mamedul Islam personal website, www.mamedul.ml, Mamedul Islam Nilphamri Govornment College, Momedul Islam Site Rajib, Momedul Islam Kishoreganj Nilphamari, Momedul Instagram, Momedul Islam Bangladesh,momidul.ml,web designer, web developer, presentation creator, custom domain mail, website builder, domain name, website design, powerpoint online, create a website, buy domain, websites, buy domain name, how to make a website, domain name search, domain registration, domains, domain name registration, website templates, graphic designing, website hosting, purchase domain name, free domain, ecommerce website, web design company, freelance graphic design, best website design, domain purchase, coding websites, email domain, domain name checker, responsive web design, graphic design websites, cheap domain names, website domain, email hosting, cheap domain registration, cheap web hosting, free business email, website design company, domain hosting, how to design a website, freelance web developer, cheap websites, design agency, get domain, web design los angeles, graphic design companies, web domain, get domain name, business website, web design agency, web development company, webdesign, free website design, freelance designer, e commerce website, business email address, website developer, freelance web designer, web design software, cool presents, buy web domain, design online, web application development, web builder, design company, small business website, cheap hosting, domain name finder, webdev, presentation maker, website design templates, create web page, design a website, free email domain, website design cost, website design software, atlanta web design, web programming, cheap website hosting, web design portfolio, learning web design, hosting services, ecommerce website design, best domain hosting, custom email address, free email hosting"/>
 <meta name="msapplication-config" content="{{ site.meta_tags.dcterms.msapplication_config }}">
 <meta name="dcterms.title" content="{{ site.meta_tags.dcterms.title }}">
