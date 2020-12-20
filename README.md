@@ -1,6 +1,6 @@
 # MAMEDUL ISLAM
 
-Go to github website - [https://mamedul.github.io/](https://mamedul.github.io/)
+Visit the web page - [https://mamedul.github.io/](https://mamedul.github.io/)
 
 ![https://mamedul.github.io/](/screenshot.png)
 
