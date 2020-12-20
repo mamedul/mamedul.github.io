@@ -1,15 +1,15 @@
 
 <title>{%- if page.title -%}{{ page.title }}{% else %}{{ site.title }}{%- endif -%}</title>
 <meta charset="{{ site.meta_tags.charset }}">
-<meta http-equiv="Content-Type" content="text/html">
-<meta http-equiv="X-UA-Compatible" content="{{ site.meta_tags.compatible }}">
-<meta http-equiv="Cache-control" content="{{ site.meta_tags.cache_control }}">
-<meta name="viewport" content="{{ site.meta_tags.viewport }}">
+<meta http-equiv="Content-Type" content="{{ site.meta_tags.content_type }}">
+<meta http-equiv="X-UA-Compatible" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%}">
+<meta http-equiv="Cache-control" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%} {{ site.meta_tags.cache_control }}">
+<meta name="viewport" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%}{{ site.meta_tags.viewport }}">
 
 
-<meta name="description" content="{%- if page.title -%}{{ page.title }}{% else %}{{ site.title }}{%- endif -%}">
-<meta name="keywords" content="Mamedul Islam, mamedul.ml, Momedul Islam, momedul.ml, Momidul Islam, www.mamedul.ml, www.momedul.ml, www.momidul.ml, Mamedul Islam personal website, www.mamedul.ml, Mamedul Islam Nilphamri Govornment College, Momedul Islam Site Rajib, Momedul Islam Kishoreganj Nilphamari, Momedul Instagram, Momedul Islam Bangladesh,momidul.ml,web designer, web developer, presentation creator, custom domain mail, website builder, domain name, website design, powerpoint online, create a website, buy domain, websites, buy domain name, how to make a website, domain name search, domain registration, domains, domain name registration, website templates, graphic designing, website hosting, purchase domain name, free domain, ecommerce website, web design company, freelance graphic design, best website design, domain purchase, coding websites, email domain, domain name checker, responsive web design, graphic design websites, cheap domain names, website domain, email hosting, cheap domain registration, cheap web hosting, free business email, website design company, domain hosting, how to design a website, freelance web developer, cheap websites, design agency, get domain, web design los angeles, graphic design companies, web domain, get domain name, business website, web design agency, web development company, webdesign, free website design, freelance designer, e commerce website, business email address, website developer, freelance web designer, web design software, cool presents, buy web domain, design online, web application development, web builder, design company, small business website, cheap hosting, domain name finder, webdev, presentation maker, website design templates, create web page, design a website, free email domain, website design cost, website design software, atlanta web design, web programming, cheap website hosting, web design portfolio, learning web design, hosting services, ecommerce website design, best domain hosting, custom email address, free email hosting"/>
-<meta name="msapplication-config" content="{{ site.meta_tags.dcterms.msapplication_config }}">
+<meta name="description" content="{%- if page.description -%}{{ page.description }}{% else %}{{ site.meta_tags.description }}{%- endif -%}">
+<meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{% else %}{{ site.meta_tags.keywords }}{%- endif -%}">
+<meta name="msapplication-config" content="{%- if page.msapplication_config -%}{{ page.msapplication_config }}{% else %}{{ site.meta_tags.msapplication_config }}{%- endif -%}">
 <meta name="dcterms.title" content="{{ site.meta_tags.dcterms.title }}">
 <meta name="dcterms.subject" content="{{ site.meta_tags.dcterms.subject }}">
 <meta name="dcterms.language" content="{{ site.meta_tags.dcterms.language }}">
@@ -30,19 +30,19 @@
 <meta name="Classification" content="{{ site.meta_tags.classification }}">
 <meta name="designer" content="{{ site.meta_tags.designer }}">
 
-<meta property="og:title" content="{{ site.meta_tags.og.title }}">
-<meta property="og:image" content="{{ site.meta_tags.og.image | relative_url }}">
-<meta property="og:description" content="{{ site.meta_tags.og.description }}" >
-<meta property="og:url" content="{{ site.meta_tags.og.url | relative_url }}">
-<meta property="og:type" content="{{ site.meta_tags.og.type }}" >
-<meta property="og:site_name" content="{{ site.meta_tags.og.site_name }}>
-<meta property="fb:locale" content="{{ site.meta_tags.og.locale }}">
+<meta property="og:title" content="{%- if page.og.title -%}{{ page.og.title }}{% else %}{{ site.meta_tags.og.title }}{%- endif -%}{{ site.meta_tags.og.title }}">
+<meta property="og:image" content="{%- if page.og.image -%}{{ page.og.image | relative_url }}{% else %}{{ site.meta_tags.og.image | relative_url }}{%- endif -%}">
+<meta property="og:description" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%} {{ site.meta_tags.og.description }}" >
+<meta property="og:url" content="{%- if page.og.description -%}{{ page.og.description | relative_url  }}{% else %}{{ site.meta_tags.og.description | relative_url  }}{%- endif -%}">
+<meta property="og:type" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}{{ site.meta_tags.og.type }}" >
+<meta property="og:site_name" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
+<meta property="fb:locale" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}{{ site.meta_tags.og.locale }}">
 <meta property="fb:locale:alternate" content="id_ID">
-<meta property="twitter:card" content="{{ site.meta_tags.twitter.card }}">
-<meta property="twitter:title" content="{{ site.meta_tags.twitter.title }}" >
-<meta property="twitter:description" content="{{ site.meta_tags.twitter.description }}">
-<meta property="twitter:image:src" content="{{ site.meta_tags.twitter.image | relative_url }}">
-<meta property="twitter:creator" content="{{ site.meta_tags.twitter.creator }}">
+<meta property="twitter:card" content="{%- if page.twitter.card -%}{{ page.twitter.card }}{% else %}{{ site.meta_tags.twitter.card }}{%- endif -%}">
+<meta property="twitter:title" content="{%- if page.twitter.title -%}{{ page.twitter.title }}{% else %}{{ site.meta_tags.twitter.title }}{%- endif -%}">
+<meta property="twitter:description" content="{%- if page.twitter.description -%}{{ page.twitter.description }}{% else %}{{ site.meta_tags.twitter.description }}{%- endif -%}">
+<meta property="twitter:image:src" content="{%- if page.twitter.image -%}{{ page.twitter.image | relative_url  }}{% else %}{{ site.meta_tags.twitter.image | relative_url  }}{%- endif -%}">
+<meta property="twitter:creator" content="{%- if page.twitter.creator -%}{{ page.twitter.creator }}{% else %}{{ site.meta_tags.twitter.creator }}{%- endif -%}">
 
 <meta name="apple-mobile-web-app-capable" content="{{ site.meta_tags.apple_mobile_web_app_capable }}">
 <meta name="apple-touch-fullscreen" content="{{ site.meta_tags.compatible }}">
