@@ -7,8 +7,14 @@ author:
 description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
 
 meta_tags:
+  charset: UTF-8
+  compatible: IE=edge,chrome=1
+  Cache-control: public
+  viewport: width=device-width, initial-scale=1.0
   author: MAMEDUL ISLAM
   email: mamedul@mamedul.ml
+  contact: mamedul@mamedul.ml
+  reply_to: mamedul@mamedul.ml
   generator: MAMEDUL ISLAM
   copyright: MAMEDUL ISLAM
   language: English
