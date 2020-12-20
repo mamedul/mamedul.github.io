@@ -9,7 +9,7 @@ description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul I
 meta_tags:
   charset: UTF-8
   compatible: IE=edge,chrome=1
-  Cache-control: public
+  cache_control: public
   viewport: width=device-width, initial-scale=1.0
   author: MAMEDUL ISLAM
   email: mamedul@mamedul.ml
