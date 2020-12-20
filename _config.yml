@@ -16,8 +16,8 @@ meta_tags:
   email: mamedul@mamedul.ml
   contact: mamedul@mamedul.ml
   reply_to: mamedul@mamedul.ml
-  generator: MAMEDUL ISLAM
-  copyright: MAMEDUL ISLAM
+  generator: Designed by MAMEDUL ISLAM
+  copyright: Copyright by MAMEDUL ISLAM
   language: English
   robots: INDEX, FOLLOW
   coverage: Worldwide
@@ -31,10 +31,12 @@ meta_tags:
   icon: /favicon.ico
   apple_mobile_web_app_capable: yes
   apple_mobile_web_app_status_bar_style: black
+  apple_touch_fullscreen: yes
   apple_touch_icon_76x76: /assets/icons/apple-touch-icon/76x76.png
   apple_touch_icon_120x120: /assets/icons/apple-touch-icon/120x120.png
   apple_touch_icon_180x180: /assets/icons/apple-touch-icon/180x180.png
   apple_touch_startup_image: /assets/icons/apple-touch-icon/.png
+  sitemap: /sitemap.xml
   opensearch: /opensearch.xml
   msapplication_config: none
   dcterms:
@@ -85,5 +87,5 @@ theme: minima
 
 plugins:
  - jekyll-feed
- - jekyll-seo-tag
+ # - jekyll-seo-tag
  - jekyll-sitemap
