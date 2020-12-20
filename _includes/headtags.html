@@ -32,7 +32,7 @@
 <meta property="og:title" content="{%- if page.og.title and page.og.title != "" -%}{{ page.og.title }}{%- else if site.meta_tags.og.title and site.meta_tags.og.title != "" -%}{{ site.meta_tags.og.title }}{% else %}{{ site.title }}{%- endif -%}">
 <meta property="og:image" content="{%- if page.og.image -%}{{ page.og.image | relative_url }}{% else %}{{ site.meta_tags.og.image | relative_url }}{%- endif -%}">
 <meta property="og:description" content="{%- if page.og.description and page.og.description != "" -%}{{ page.og.description }}{%- else if site.meta_tags.og.description and site.meta_tags.og.description != "" -%}{{ site.meta_tags.og.description }}{% else %}{{ site.description }}{%- endif -%}">
-<meta property="og:url" content="{%- if page.og.description -%}{{ page.og.description | relative_url  }}{% else %}{{ site.meta_tags.og.description | relative_url  }}{%- endif -%}">
+<meta property="og:url" content="{%- if page.og.url -%}{{ page.og.url | relative_url  }}{% else %}{{ site.meta_tags.og.url | relative_url  }}{%- endif -%}">
 <meta property="og:type" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
 <meta property="og:site_name" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
 <meta property="fb:locale" content="{%- if page.og.description -%}{{ page.og.description }}{% else %}{{ site.meta_tags.og.description }}{%- endif -%}">
