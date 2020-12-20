@@ -29,15 +29,15 @@ meta_tags:
   designer: MAMEDUL ISLAM
   icon: /favicon.ico
   apple_mobile_web_app_capable: yes
-  apple_mobile_web_app_status_bar_style: English
+  apple_mobile_web_app_status_bar_style: black
   apple_touch_icon_76x76: /assets/icons/apple-touch-icon/76x76.png
   apple_touch_icon_120x120: /assets/icons/apple-touch-icon/120x120.png
   apple_touch_icon_180x180: /assets/icons/apple-touch-icon/180x180.png
   apple_touch_startup_image: /assets/icons/apple-touch-icon/.png
-  opensearchdescription: /opensearch.xml
+  opensearch: /opensearch.xml
   dcterms:
-    title: English
-    subject: English
+    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
+    subject: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
     language: en-US
   og:
     title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
