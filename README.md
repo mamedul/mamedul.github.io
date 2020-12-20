@@ -1,8 +1,8 @@
 # MAMEDUL ISLAM
 
-Visit the web page - [https://mamedul.github.io/](https://mamedul.github.io/)
+Visit the web page - [https://mamedul.github.io](https://mamedul.github.io/)
 
-![https://mamedul.github.io/](/screenshot.png)
+![https://mamedul.github.io](/screenshot.png)
 
 I'm Mamedul Islam from Bangladesh and a professional web designer & fullstack LAMP(`PHP`, `MySQL`, `Javascript`) web develpoer with 5 years experienced. I've alse experienced in Wordpress, Adobe Photoshop, Adobe Illustrator, Microsoft Excel (VBA, Advanced Level), Microsoft Access (`VBA`, Advance), Microsoft Poewerpont (Professional), Microsoft Publisher Besides I've familiar and basic experienced in SEO, adsense, blogger, video editing, android mobile app too..
 
