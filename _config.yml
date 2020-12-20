@@ -8,6 +8,7 @@ description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul I
 
 meta_tags:
   charset: UTF-8
+  content_type: text/html
   compatible: IE=edge,chrome=1
   cache_control: public
   viewport: width=device-width, initial-scale=1.0
@@ -35,6 +36,7 @@ meta_tags:
   apple_touch_icon_180x180: /assets/icons/apple-touch-icon/180x180.png
   apple_touch_startup_image: /assets/icons/apple-touch-icon/.png
   opensearch: /opensearch.xml
+  msapplication_config: none
   dcterms:
     title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
     subject: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
