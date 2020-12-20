@@ -55,9 +55,10 @@ meta_tags:
     title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
     image: 
     creator: "@mamedul"
-  
 
-show_excerpts: false # set to true to show excerpts on the homepage
+
+# set to true to display post-excerpts on the Home Page
+show_excerpts: true
 
 # Date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
