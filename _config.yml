@@ -6,6 +6,49 @@ author:
   
 description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
 
+meta_tags:
+  author: MAMEDUL ISLAM
+  email: mamedul@mamedul.ml
+  generator: MAMEDUL ISLAM
+  copyright: MAMEDUL ISLAM
+  language: English
+  robots: INDEX, FOLLOW
+  coverage: Worldwide
+  distribution: Global
+  rating: General
+  owner: MAMEDUL ISLAM
+  revisit_after: 3 days
+  target: all
+  Classification: Personal
+  designer: MAMEDUL ISLAM
+  icon: /favicon.ico
+  apple_mobile_web_app_capable: yes
+  apple_mobile_web_app_status_bar_style: English
+  apple_touch_icon_76x76: /assets/icons/apple-touch-icon/76x76.png
+  apple_touch_icon_120x120: /assets/icons/apple-touch-icon/76x76.png
+  apple_touch_icon_180x180: /assets/icons/apple-touch-icon/76x76.png
+  apple_touch_startup_image: English
+  opensearchdescription: /opensearch2.xml
+  dcterms:
+    title: English
+    subject: English
+    language: en-US
+  og:
+    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
+    image: 
+    description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
+    url: mamedul.gitgub.io
+    type: website
+    site_name: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
+    locale: en-US
+  twitter:
+    card: 
+    description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
+    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
+    image: 
+    creator: @mamedul
+  
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Date format
