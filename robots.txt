@@ -1,3 +1,2 @@
 User-agent: * Disallow: /page
-
 User-agent: * Disallow: /page/*
