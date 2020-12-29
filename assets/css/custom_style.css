@@ -54,7 +54,7 @@ html {
 	left: 0px;
 	width: 100%;
 	background: #08528a;
-	background: linear-gradient(180deg, #3493ce, transparent);
+	background: linear-gradient(180deg, rgba(52, 147, 206,0.9), rgba(3, 66, 121,0.9));
 	z-index: 9999;
 }
 
