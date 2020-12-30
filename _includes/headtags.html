@@ -2,9 +2,9 @@
 <title>{%- if page.title -%}{{ page.title }}{% else %}{{ site.title }}{%- endif -%}</title>
 <meta charset="{{ site.meta_tags.charset }}">
 <meta http-equiv="Content-Type" content="{{ site.meta_tags.content_type }}">
-<meta http-equiv="X-UA-Compatible" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%}">
-<meta http-equiv="Cache-control" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%}">
-<meta name="viewport" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.compatible }}{%- endif -%}">
+<meta http-equiv="X-UA-Compatible" content="{%- if page.compatible -%}{{ page.compatible }}{% else %}{{ site.meta_tags.compatible }}{%- endif -%}">
+<meta http-equiv="Cache-control" content="{%- if page.cache_control -%}{{ page.cache_control }}{% else %}{{ site.meta_tags.cache_control }}{%- endif -%}">
+<meta name="viewport" content="{%- if page.viewport -%}{{ page.viewport }}{% else %}{{ site.meta_tags.viewport }}{%- endif -%}">
 
 <meta name="description" content="{%- if page.description -%}{{ page.description }}{% else %}{{ site.meta_tags.description }}{%- endif -%}">
 <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{% else %}{{ site.meta_tags.keywords }}{%- endif -%}">
