@@ -13,12 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "ext-ctype": "*",
-        "ext-filter": "*",
-        "ext-hash": "*"
+        "php": ">=5.5.0"
     },
-    "autoload": {},
     "license": "MIT Licence"
-
 }
