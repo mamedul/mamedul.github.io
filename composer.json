@@ -1,0 +1,24 @@
+{
+    "name": "mamedul/mamedul.github.io",
+    "type": "template",
+    "description": "MAMEDUL ISLAM is a professional web designer with 5 years experienced from Bangladesh. I have experienced in Web Development(PHP, MySQL), Wordpress, Adobe Photoshop, Adobe Illustrator and Microsoft Office(Advanced Level).",
+    "authors": [{
+            "name": "MAMEDUL ISLAM",
+            "email": "mamedul@mamedul.ml"
+        }
+    ],
+    "funding": [{
+            "url": "https://github.com/mamedul",
+            "type": "github"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-hash": "*"
+    },
+    "autoload": {},
+    "license": "MIT Licence"
+
+}
