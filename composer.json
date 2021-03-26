@@ -8,5 +8,6 @@
             "email": "mamedul@mamedul.ml"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev"
 }
