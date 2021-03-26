@@ -86,6 +86,13 @@ mamedul:
 # Build settings
 theme: minima
 
+# Outputting
+permalink: /:categories/:title
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+
 plugins:
  - jekyll-feed
  - jekyll-sitemap
