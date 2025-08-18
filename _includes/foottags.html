@@ -1,6 +1,14 @@
+	<script type="text/javascript">
+		//<![CDATA[
+		(function () {
+			var cy = document.getElementById('copyrightYear');
+			if(cy){ cy.textContent = '2019-' + (new Date()).getFullYear(); }
+		})();
+		//]]>
+	</script>
 	<script src="{{ "/assets/libs/jquery-3.4.1/jquery.min.js" | relative_url }}"></script>
-	<script src="{{ "/assets/libs/popper.js/1.16.0/popper.min.js" | relative_url }}"></script>
-	<script src="{{ "/assets/libs/bootstrap-4.4.1-dist/js/bootstrap.min.js" | relative_url }}"></script>
+	<script src="{{ "/assets/libs/popper.js/1.16.1/popper.min.js" | relative_url }}"></script>
+	<script src="{{ "/assets/libs/bootstrap-4.6.2/js/bootstrap.min.js" | relative_url }}"></script>
 
 	<script type="text/javascript">
 		//<![CDATA[
@@ -36,8 +44,10 @@
 			$(document).on('click', 'a', function (e) {
 				e.preventDefault();
 				var $this = $(this), url = $this.attr("href");
+
+				if( url == '' || url == null || url == '#' || url == undefined ){ return; }
 				
-				if (typeof ($this.attr('title'))!='undefined' ) {
+				if (typeof ($this.attr('title')) !=' undefined' ) {
 					title = $this.attr('title') + ' :: MAMEDUL ISLAM';
 				}else{
 					title = $this.text() + ' :: MAMEDUL ISLAM';
@@ -54,7 +64,6 @@
 				document.title = title;
 
 				load(url);
-				
 			});
 
 			$(window).on('popstate', function (e) {
@@ -68,13 +77,15 @@
 					load("/");
 				}
 			});
+
+			$(document).on('click', '.content-header .navbar .navbar-nav .nav-link', function (e) {
+				$('[data-target="#navbarCollapse"]').trigger('click');
+			});
 			
 			var fitdoc=function(){
 				var ch =$('#content-header'), cb=$('#content-body'), cbb=$('#content-body-box'), cf=$('#content-footer');
 				cbb.css({ "margin-top" : ch.outerHeight(), "margin-bottom" : cf.outerHeight(), "height" : cb.height() - (ch.outerHeight()+cf.outerHeight()), "max-height" : cb.outerHeight() - (ch.outerHeight()+cf.outerHeight()) });
 			};
-			
-			fitdoc();
 			
 			$(window).on('resize', function(){
 				fitdoc();
@@ -83,6 +94,8 @@
 			$('#content-header, #content-footer').ready(function(){
 				fitdoc();
 			});
+			
+			fitdoc();
 		
 		});
 		//]]>

@@ -5,48 +5,48 @@
 	{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
 		<div class="text-center m-auto">
-			<div class="p-1 p-md-3">
-				<h2 class="m-0 armor d-inline-block box-shadow-6 light-beam white-beam p-2 pl-4 pr-4">
-					<!--
-					<span class="top"></span>
-					<span class="bottom"></span>
-					<span class="left"></span>
-					<span class="right"></span>
-					-->
-					<span class="tl_corner"></span>
-					<span class="tr_corner"></span>
-					<span class="bl_corner"></span>
-					<span class="br_corner"></span>
-					MAMEDUL ISLAM
-				</h2>
-			</div>
 			{%- if titles_size > 0 -%}
-			<div class="navbar-panel">			
-				<nav class="navbar navbar-expand-md">
+			<div class="navbar-panel">
+				<nav class="navbar navbar-expand-md px-0 py-1">
+					<a class="navbar-brand m-0 armor d-inline-block box-shadow-6 light-beam white-beam p-2 pl-4 pr-4"
+						href="{{ "/" | relative_url }}">
+						<!--
+						<span class="top"></span>
+						<span class="bottom"></span>
+						<span class="left"></span>
+						<span class="right"></span>
+						-->
+						<span class="tl_corner"></span>
+						<span class="tr_corner"></span>
+						<span class="bl_corner"></span>
+						<span class="br_corner"></span>
+						MAMEDUL ISLAM
+					</a>
+					
 					<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<!--<span class="navbar-toggler-icon text-white"></span>-->
 						<img src="/assets/icons/option_icons_32x32.gif" alt="&#x22EF;" style="height:32px;width:auto;"/>
 					</button>
 					
 					<div class="collapse navbar-collapse max-vh-md-40-only overflow-sm-only-auto" id="navbarCollapse">
-						<ul class="navbar-nav m-auto">
+						<ul class="navbar-nav m-0 ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="/">Home</a>
+								<a class="nav-link" href="{{ "/" | relative_url }}">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/portfolios">Portfolio</a>
+								<a class="nav-link" href="{{ "/portfolios" | relative_url }}">Portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/services">Services</a>
+								<a class="nav-link" href="{{ "/services" | relative_url }}">Services</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/blog">Blog</a>
+								<a class="nav-link" href="{{ "/blogs" | relative_url }}">Blog</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/abouts">Abouts</a>
+								<a class="nav-link" href="{{ "/abouts" | relative_url }}">Abouts</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/contacts">Contacts</a>
+								<a class="nav-link" href="{{ "/contacts" | relative_url }}">Contacts</a>
 							</li>
 							<!--
 							{%- for path in page_paths -%}

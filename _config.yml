@@ -1,11 +1,11 @@
-title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
+title: "Mamedul Islam | Freelance Web Developer & E-commerce Expert"
 
 author: 
   name: mamedul
-  email: mamedul@mamedul.ml
+  email: md.mamedulislam@gmail.com
   
-description: mamedul.gitgub.io is a personal website of Mamedul Islam. He is a top rated full-time freelancer and working from home. The website is using for works & portfolio
-keywords: freelancer, top rated, best freelancer, top quality, web designer, web developer, website design, bussiness website, corporate website, awesome design, wordpress website, theme development, plugin development
+description: "Mamedul Islam is a top-rated freelance web developer, designer, and expert in WordPress, WooCommerce, and Shopify. Delivering professional, custom web solutions from home."
+keywords: "freelance, web developer, web designer, WordPress expert, WooCommerce expert, Shopify expert, PWA, full-stack, frontend, backend, custom themes, plugin development, remote freelancer"
 
 meta_tags:
   charset: UTF-8
@@ -14,9 +14,9 @@ meta_tags:
   cache_control: public
   viewport: width=device-width, initial-scale=1.0
   author: MAMEDUL ISLAM
-  email: mamedul@mamedul.ml
-  contact: mamedul@mamedul.ml
-  reply_to: mamedul@mamedul.ml
+  email: md.mamedulislam@gmail.com
+  contact: md.mamedulislam@gmail.com
+  reply_to: md.mamedulislam@gmail.com
   generator: Designed by MAMEDUL ISLAM
   copyright: Copyright by MAMEDUL ISLAM
   language: English
@@ -41,22 +41,22 @@ meta_tags:
   opensearch: /opensearch.xml
   msapplication_config: none
   dcterms:
-    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
-    subject: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
-    language: en-US
+    title: "Mamedul Islam | Freelance Web Developer"
+    subject: "Portfolio of a Freelance Web Developer and E-commerce Expert"
+    language: "en-US"
   og:
-    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
-    image: /assets/images/Mamedul_02.jpg
-    description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
-    url: mamedul.github.io
-    type: website
-    site_name: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
-    locale: en-US
+    title: "Mamedul Islam | Freelance Web Developer & E-commerce Expert"
+    image: "/assets/images/Mamedul_02.jpg"
+    description: "Top-rated freelancer specializing in custom WordPress, WooCommerce, and Shopify development. Delivering professional web solutions and creative designs."
+    url: "https://mamedul.github.io"
+    type: "website"
+    site_name: "Mamedul's Portfolio"
+    locale: "en_US"
   twitter:
-    card: summary_large_image
-    description: mamedul.gitgub.io is a personal website of Mamedul Islam. Mamedul Islam is a top rated full-time freelancer and working from home. The website is using for works & portfolio
-    title: "Freelancer Mamedul Islam :: Personal website for work and my portfolios &#x7c; Top rated Freelancer &#x7c; Personal website and creativity demo"
-    image: /assets/images/Mamedul_02.jpg
+    card: "summary_large_image"
+    description: "Top-rated freelancer specializing in custom WordPress, WooCommerce, and Shopify development. Delivering professional web solutions and creative designs."
+    title: "Mamedul Islam | Freelance Web Developer"
+    image: "/assets/images/Mamedul_02.jpg"
     creator: "@mamedul"
 
 
@@ -87,11 +87,11 @@ mamedul:
 theme: minima
 
 # Outputting
-permalink: /blog/:categories/:title
+permalink: /blogs/:categories/:title
 
 # Blog pagination
 paginate: 5
-paginate_path: "/blog/page/:num/"
+paginate_path: "/blogs/page/:num/"
 
 # Build settings
 markdown: kramdown
