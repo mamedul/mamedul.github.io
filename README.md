@@ -1,21 +1,38 @@
-# MAMEDUL ISLAM
+# Mamedul Islam | Full-Stack Web Developer
 
-Visit the web page - [https://mamedul.github.io](https://mamedul.github.io/)
+[![Mamedul Islam's GitHub stats](https://github-readme-stats.vercel.app/api?username=mamedul&show_icons=true&theme=radical)](https://github.com/mamedul/github-readme-stats)
 
-![https://mamedul.github.io](https://mamedul.github.io/screenshot.png)
+A passionate and experienced Full-Stack Web Developer from Bangladesh since 2017 in the LAMP stack (Linux, Apache, MySQL, PHP). I specialize in creating dynamic, responsive, and user-friendly websites and web applications. My skill set also extends to front-end design, UI/UX principles, and popular CMS platforms like WordPress.
 
-I'm Mamedul Islam from Bangladesh and a professional web designer & fullstack LAMP(`PHP`, `MySQL`, `Javascript`) web develpoer with 5 years experienced. I've alse experienced in Wordpress, Adobe Photoshop, Adobe Illustrator, Microsoft Excel (VBA, Advanced Level), Microsoft Access (`VBA`, Advance), Microsoft Poewerpont (Professional), Microsoft Publisher Besides I've familiar and basic experienced in SEO, adsense, blogger, video editing, android mobile app too..
+## 🚀 Core Skills
 
+- **Backend Development:** PHP, MySQL, Laravel, CodeIgniter
+- **Frontend Development:** HTML5, CSS3, JavaScript, jQuery, Bootstrap
+- **CMS:** WordPress (Theme & Plugin Development)
+- **Design Tools:** Adobe Photoshop, Adobe Illustrator
+- **Microsoft Office Suite:** Advanced Excel (VBA), Access (VBA), PowerPoint
+- **Other Technologies:** SEO, Google AdSense, Blogger, Basic Android App Development, Video Editing
 
-## Copyright
+##  portfolio
 
-![http://creativecommons.org/licenses/by-nc-sa/4.0/](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
+I have a proven track record of delivering high-quality web solutions. You can view my portfolio here: [https://mamedul.github.io/portfolios](https://mamedul.github.io/portfolios)
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+## 🤝 Let's Connect
 
+I'm always open to new opportunities and collaborations. Feel free to connect with me:
+
+- **LinkedIn:** [Your LinkedIn Profile URL]
+- **Twitter:** https://twitter.com/mamedul
+- **Email:** md.mamedulislam@gmail.com
+- **GitHub:** https://github.com/mamedul
+- **Facebook:** https://www.facebook.com/md.mamedul
+- **Instagram:** https://www.instagram.com/mamedul
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-<meta http-equiv="refresh" content="2;url=https://mamedul.github.io" />
+## Copyright
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+![http://creativecommons.org/licenses/by-nc-sa/4.0/](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)

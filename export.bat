@@ -1,2 +1,2 @@
-bundle install
+:: bundle install
 bundle exec jekyll serve
