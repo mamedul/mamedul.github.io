@@ -1,12 +1,3 @@
-	<script type="text/javascript" data-load="noajax">
-		//<![CDATA[
-		function onLoadExec() {
-			var cy = document.getElementById('copyrightYear');
-			if(cy){ cy.textContent = '2019-' + (new Date()).getFullYear(); }
-		}
-		onLoadExec();
-		//]]>
-	</script>
 	<script src="{{ "/assets/libs/jquery-3.4.1/jquery.min.js" | relative_url }}" data-load="noajax"></script>
 	<script src="{{ "/assets/libs/popper.js/1.16.1/popper.min.js" | relative_url }}" data-load="noajax"></script>
 	<script src="{{ "/assets/libs/bootstrap-4.6.2/js/bootstrap.min.js" | relative_url }}" data-load="noajax"></script>
@@ -135,11 +126,17 @@
 			$(document).on('click', '.content-header .navbar .navbar-nav .nav-link', function (e) {
 				$('[data-target="#navbarCollapse"]').trigger('click');
 			});
-			
-			var fitdoc=function(){
+
+			function fitdoc(){
 				var ch =$('#content-header'), cb=$('#content-body'), cbb=$('#content-body-box'), cf=$('#content-footer');
 				cbb.css({ "margin-top" : ch.outerHeight(), "margin-bottom" : cf.outerHeight(), "height" : cb.height() - (ch.outerHeight()+cf.outerHeight()), "max-height" : cb.outerHeight() - (ch.outerHeight()+cf.outerHeight()) });
-			};
+			}
+
+			function onLoadExec() {
+				var cy = document.getElementById('copyrightYear');
+				if(cy){ cy.textContent = '2019-' + (new Date()).getFullYear(); }
+				fitdoc();
+			}
 			
 			$(window).on('resize', function(){
 				fitdoc();
@@ -151,8 +148,8 @@
 			
 			$('#loading').fadeOut(1000);
 			$('#body-container').show();
-			
-			fitdoc();
+
+			onLoadExec();
 		
 		});
 		//]]>
