@@ -1,19 +1,20 @@
-	<script type="text/javascript">
+	<script type="text/javascript" data-load="noajax">
 		//<![CDATA[
-		(function () {
+		function onLoadExec() {
 			var cy = document.getElementById('copyrightYear');
 			if(cy){ cy.textContent = '2019-' + (new Date()).getFullYear(); }
-		})();
+		}
+		onLoadExec();
 		//]]>
 	</script>
-	<script src="{{ "/assets/libs/jquery-3.4.1/jquery.min.js" | relative_url }}"></script>
-	<script src="{{ "/assets/libs/popper.js/1.16.1/popper.min.js" | relative_url }}"></script>
-	<script src="{{ "/assets/libs/bootstrap-4.6.2/js/bootstrap.min.js" | relative_url }}"></script>
+	<script src="{{ "/assets/libs/jquery-3.4.1/jquery.min.js" | relative_url }}" data-load="noajax"></script>
+	<script src="{{ "/assets/libs/popper.js/1.16.1/popper.min.js" | relative_url }}" data-load="noajax"></script>
+	<script src="{{ "/assets/libs/bootstrap-4.6.2/js/bootstrap.min.js" | relative_url }}" data-load="noajax"></script>
 
-	<script type="text/javascript">
+	<script type="text/javascript" data-load="noajax">
 		//<![CDATA[
 		$(document).ready(function(){
-			
+			/*
 			document.title = $(document).find('#title').text() + " :: MAMEDUL ISLAM";
 			$('#loading').fadeOut(1000);
 			$('#body-container').show();
@@ -76,6 +77,59 @@
 					$('.content-body-box').empty();
 					load("/");
 				}
+			});
+			*/
+			
+			// Load without refresh
+			const containerSelector = '#body-container';
+			
+			const loadPage = function(url) {
+				$('#loading').show();
+				$.ajax({
+					url: url,
+					type: 'GET',
+					dataType: 'html',
+					success: function(response) {
+						var parser = new DOMParser();
+						var doc = parser.parseFromString(response, 'text/html');
+						var $doc = $(doc);
+						$doc.find('[data-load="noajax"]').remove();
+						var $title = $doc.find('title');
+						var $newHead = $doc.find('head');
+						var $newBody = $doc.find(containerSelector);
+						if ($newHead.length > 0) {
+							$('head').html($newHead.html());
+						}
+						if ($newBody.length > 0) {
+							$(containerSelector).html($newBody.html());
+						} else {
+							$(containerSelector).html('<div class="not-content">No content found!</div>');
+						}
+						if(typeof onLoadExec === 'function') onLoadExec();
+						history.pushState(null, $title.text(), url);
+					},
+					error: function() {
+						window.location.href = url;
+					},
+					complete: function() {
+						$('#loading').hide();
+					},
+				});
+			};
+
+			$(document).on('click', 'a', function(e) {
+				var href = '' + $(this).attr('href');
+				if (!href || href=='' || href.indexOf('#')>-1) return;
+				if ((href.indexOf('http://')>-1 || href.indexOf('https://')>-1) && !href.indexOf(window.location.hostname)>-1) return;
+				if (href.indexOf('mailto:')>-1 || href.indexOf('tel:')>-1) return;
+				if ($(this).attr('target') === '_blank') return;
+				if ($(this).attr('data-load') !== 'ajax') return;
+				e.preventDefault();
+				loadPage(href);
+			});
+			
+			$(window).on('popstate', function() {
+				loadPage(window.location.href);
 			});
 
 			$(document).on('click', '.content-header .navbar .navbar-nav .nav-link', function (e) {
