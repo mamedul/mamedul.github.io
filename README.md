@@ -21,7 +21,7 @@ I have a proven track record of delivering high-quality web solutions. You can v
 
 I'm always open to new opportunities and collaborations. Feel free to connect with me:
 
-- **LinkedIn:** [Your LinkedIn Profile URL]
+- **LinkedIn:** https://www.linkedin.com/in/mamedul/
 - **Twitter:** https://twitter.com/mamedul
 - **Email:** md.mamedulislam@gmail.com
 - **GitHub:** https://github.com/mamedul
